@@ -7,6 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.omprakash.fooddelivery.databinding.DeliveryItemBinding;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -31,6 +32,7 @@ public class DeliveryItemsAdapter extends RecyclerView.Adapter<DeliveryItemViewH
     public void onBindViewHolder(@NonNull DeliveryItemViewHolder holder, int position) {
         DeliveryItem deliveryItem = deliveryItems.get(position);
         holder.binding.setDeliveryItem(deliveryItem);
+        Picasso.get().load(deliveryItem.foodImageUrl).into(holder.binding.foodImg);
     }
 
     @Override

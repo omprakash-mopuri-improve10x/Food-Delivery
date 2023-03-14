@@ -14,7 +14,8 @@ public class DeliveryItem {
 
     }
 
-    public DeliveryItem(String userNameTxt, String userCityTxt, String deliveryDate, String timeTxt, String ratingTxt) {
+    public DeliveryItem(String foodImageUrl, String userNameTxt, String userCityTxt, String deliveryDate, String timeTxt, String ratingTxt) {
+        this.foodImageUrl = foodImageUrl;
         this.userNameTxt = userNameTxt;
         this.userCityTxt = userCityTxt;
         this.deliveryDate = deliveryDate;
