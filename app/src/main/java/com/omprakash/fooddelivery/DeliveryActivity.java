@@ -29,7 +29,7 @@ public class DeliveryActivity extends AppCompatActivity {
         deliveryItems = new ArrayList<>();
         DeliveryItem deliveryItem1 = new DeliveryItem("https://www.archanaskitchen.com/images/archanaskitchen/World_Mediterranean/Lebanese_Falafel_Chickpea_Recipe_400.jpg", "Omprakash", "Jaladurgam", "Monday 09", "11min", "4.5");
         deliveryItems.add(deliveryItem1);
-        DeliveryItem deliveryItem = new DeliveryItem("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmwukWRfnD7Ori3abS83wWYhDgS_rdpJAEmQ&usqp=CAU", "Omprakash", "Jaladurgam", "Monday 09", "11min", "4.5");
+        DeliveryItem deliveryItem = new DeliveryItem("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmwukWRfnD7Ori3abS83wWYhDgS_rdpJAEmQ&usqp=CAU", "Viswanath kumar", "Hyderbad", "Friday 19", "19min", "4.6");
         deliveryItems.add(deliveryItem);
         deliveryItems.add(deliveryItem1);
         deliveryItems.add(deliveryItem);
