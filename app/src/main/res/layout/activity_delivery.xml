@@ -7,7 +7,7 @@
     tools:context=".DeliveryActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/delivery+items"
+        android:id="@+id/delivery_items_rv"
         android:layout_width="409dp"
         android:layout_height="867dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -37,7 +37,7 @@ public class DeliveryActivity extends AppCompatActivity {
     }
 
     private void setupDeliveryItemsRv() {
-        binding.deliveryItems.setLayoutManager(new LinearLayoutManager(this));
-        binding.deliveryItems.setAdapter(deliveryItemsAdapter);
+        binding.deliveryItemsRv.setLayoutManager(new LinearLayoutManager(this));
+        binding.deliveryItemsRv.setAdapter(deliveryItemsAdapter);
     }
 }
