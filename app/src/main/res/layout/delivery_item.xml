@@ -11,7 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp">
+        android:layout_marginTop="8dp">
 
         <ImageView
             android:id="@+id/food_img"
@@ -27,7 +27,7 @@
             android:id="@+id/cardView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             app:cardCornerRadius="40dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/food_img">
@@ -55,7 +55,7 @@
                     android:text="Delivery On"
                     android:textAllCaps="true"
                     android:textColor="#000000"
-                    android:textSize="16sp" />
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/delivery_date"
@@ -63,8 +63,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@{deliveryItem.deliveryDate}"
+                    android:textAllCaps="true"
                     android:textColor="#D50B0B"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     tools:text="Tuesday 01" />
             </LinearLayout>
@@ -95,10 +96,10 @@
 
                     <ImageView
                         android:id="@+id/user_profile_img"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
                         android:adjustViewBounds="true"
-                        app:srcCompat="@drawable/delevery_bike" />
+                        app:srcCompat="@drawable/whatsapp_image_2022_08_07_at_7_15_41_pm" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -116,7 +117,7 @@
                         android:paddingLeft="8dp"
                         android:text="@{deliveryItem.userNameTxt}"
                         android:textColor="#FFFFFF"
-                        android:textSize="16sp"
+                        android:textSize="12sp"
                         android:textStyle="bold"
                         tools:text="Omprakash" />
 
@@ -128,6 +129,7 @@
                         android:paddingLeft="8dp"
                         android:text="@{deliveryItem.userCityTxt}"
                         android:textColor="#FFFFFF"
+                        android:textSize="12sp"
                         tools:text="Kurnoll" />
                 </LinearLayout>
             </LinearLayout>
@@ -135,6 +137,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
@@ -166,7 +169,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="8dp">
+                android:padding="4dp">
 
                 <TextView
                     android:id="@+id/textView8"
@@ -177,7 +180,7 @@
                     android:text="Usually Repleis within"
                     android:textAllCaps="true"
                     android:textColor="#FFFFFF"
-                    android:textSize="12sp" />
+                    android:textSize="10sp" />
 
                 <TextView
                     android:id="@+id/time_txt"
@@ -220,10 +223,10 @@
                     android:id="@+id/rating_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="12dp"
+                    android:paddingLeft="8dp"
                     android:text="@{deliveryItem.ratingTxt}"
                     android:textColor="#FFFFFF"
-                    android:textSize="20sp"
+                    android:textSize="16sp"
                     tools:text="4.3" />
 
                 <TextView

@@ -27,7 +27,15 @@ public class DeliveryActivity extends AppCompatActivity {
 
     private void setData() {
         deliveryItems = new ArrayList<>();
-        DeliveryItem deliveryItem = new DeliveryItem("Viswanath kumar", "Hyderbad", "Monday 09", "11min", "4.5");
+        DeliveryItem deliveryItem = new DeliveryItem("Omprakash", "Jaladurgam", "Monday 09", "11min", "4.5");
+        deliveryItems.add(deliveryItem);
+        deliveryItems.add(deliveryItem);
+        deliveryItems.add(deliveryItem);
+        deliveryItems.add(deliveryItem);
+        deliveryItems.add(deliveryItem);
+        deliveryItems.add(deliveryItem);
+        deliveryItems.add(deliveryItem);
+        deliveryItems.add(deliveryItem);
         deliveryItems.add(deliveryItem);
     }
 
