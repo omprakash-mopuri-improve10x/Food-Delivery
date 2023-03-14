@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.omprakash.fooddelivery.databinding.ActivitySplashBinding;
+import com.squareup.picasso.Picasso;
 
 public class SplashActivity extends AppCompatActivity {
 
